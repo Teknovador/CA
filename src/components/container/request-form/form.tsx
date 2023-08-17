@@ -9,7 +9,7 @@ const RequestForm = () => {
     const [name, setName] = useState('');
     const [phone, setPhone] = useState('');
     const [email, setEmail] = useState('');
-    const [itrAmount, setItrAmount] = useState('ITR Amount:- 1999 RS');
+    const [itrAmount, setItrAmount] = useState('ITR Amount:- 1999 RSp');
     const [message, setMessage] = useState('');
     const [carddetail, setCarddetail] = useState(false);
     const [password, setPassword] = useState('');
