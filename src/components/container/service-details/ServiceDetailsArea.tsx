@@ -7,6 +7,7 @@ import Two from "public/images/about/16.png";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import RequestForm from "../request-form/form";
+import FormComponent from "../request-form/FormComponent";
 
 const ServiceDetailsArea = () => {
   const [imgTab, setImgTab] = useState(0);
@@ -52,7 +53,8 @@ const ServiceDetailsArea = () => {
               </p>
             </div>
             <div className="col-md-4 pay-now">
-              <RequestForm/>
+              {/* <RequestForm/> */}
+              <FormComponent/>
             </div>
             <div className="col-md-12">
             <div className="faq-area cus-faq pd-top-110 bg-sky">
